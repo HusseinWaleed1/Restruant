@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Log in</title>
+    <link href="../CSS/style-login.css" rel="stylesheet" />
+    <link href="../CSS/bootstrap1.min.css" rel="stylesheet" />
+    <!--للينك الأيقونة -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+
+</head>
+<body>
+    <div class="login">
+        <a href="Home.html"><i class="fas fa-times" id="close"></i></a>
+        <h2>Welcome</h2>
+        <form action="#">
+            <div class="Username">
+                <input type="text" placeholder="Username" required />
+                <i class="bx bxs-user"></i><!--ده عشان الأيقونة بتاع الشخص-->
+            </div>
+            <div class="Username">
+                <input type="password" placeholder="Password" required />
+                <i class="bx bxs-lock-alt"></i><!--ده عشان الأيقونة بتاع الباسورد-->
+            </div>
+            <a href="#" class="forgot">
+                <p>Forgot password</p>
+            </a>
+                <button type="submit" class="btn btn-primary" id="btn">Log in</button>
+            <p>Don't have an account? <a href="signup.html" class="sign">sign up</a></p>
+        </form>
+    </div>
+    <!-- <script src="jquery-3.7.1.js"></script>
+    <script src="bootstrap.js"></script>
+    <script src="JavaScript.js"></script> -->
+</body>
+</html>

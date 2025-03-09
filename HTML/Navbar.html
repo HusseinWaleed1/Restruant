@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Document</title>
+</head>
+<style>
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px;
+    }
+    nav .brand i{
+        color: #ff2c28;
+    }
+    nav .brand{
+        font-size: 2.5rem;
+        color: #000;
+        text-decoration: none;
+        font-weight: 700;
+    }
+    nav .navbody a{
+        margin-left: 10px;
+        font-size: 1.3rem;
+        font-weight: 600;
+        text-decoration: none;
+        color: #666;
+    }
+    nav .navbody a:hover, nav .navbody .active{
+        color: #ff2c28;
+    }
+
+    nav .icons .fh{
+        cursor: pointer;
+        text-decoration: none;
+        margin-left: .5rem;
+        height: 3rem;
+        line-height: 3rem;
+        width: 3rem;
+        text-align: center;
+        font-size: 1.3rem;
+        color: #000;
+        border-radius: 50%;
+        background: #e7e7e7;
+        transition: all .3s linear;
+    }
+
+    nav .icons .fh:hover{
+        color: #fff;
+        background: #ff2c28;
+        transform: rotate(360deg);
+    }
+
+</style>
+<body>
+    <nav>
+        <a class="brand" href=""><i class="fas fa-utensils"></i>Food</a>
+        <div class="navbody">
+            <a href="" class="active">Home</a>
+            <a href="">About</a>
+            <a href="">Menu</a>
+            <a href="">Services</a>
+            <a href="">Contact</a>
+        </div>
+        <div class="icons">
+            <a class="fas fa-heart fh" id="heart"></a>
+            <a class="fas fa-shopping-cart fh" id="shopping"></a>
+            <a class="fas fa-search fh" id="search-icon"></a>
+            <a class="fas fa-user fh"></a>
+        </div>
+    </nav>
+</body>
+</html>

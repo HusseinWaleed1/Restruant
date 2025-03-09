@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Icon -->
+    <link rel="shortcut icon" href="../Image/chef-ha1t.png" type="image/x-icon">
+
+    <!-- CSS Style -->
+    <link rel="stylesheet" href="../CSS/style.css">
+
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="../CSS/bootstrap1.min.css">
+
+    <!-- CSS Swiper -->
+    <link rel="stylesheet" href="../CSS/swiper-bundle.min.css">
+
+
+    <!-- CSS Icons -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    
+    <!-- CSS Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+
+    <title>Resturant</title>
+</head>
+<body>
+    <!-- Start Head -->
+    <header>
+
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand me-auto" href="#"><i class="fas fa-utensils"></i>Food</a>
+                
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><i class="fas fa-utensils"></i>Food</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2 active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="#About">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="#menu">Menu</a>
+                            </li>
+                            <!-- <li class="nav-item dropdown">
+                                <a class="nav-link  mx-lg-2" href="menu.html" role="button"  aria-expanded="false">
+                                    Menu
+                                </a>
+                            </li> -->
+                            
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="#services">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        
+        
+                <div class="icons">
+                    <a class="fas fa-heart fh" id="heart"></a>
+                    <a class="fas fa-shopping-cart fh" id="shopping"></a>
+                    <a class="fas fa-search fh" id="search-icon"></a>
+                    <!-- <a class="fas fa-user"></a> -->
+                    <a   class="uiverse">
+                        <span class="tooltip">Registration</span>
+                        <span>
+                            <i class="fas fa-user " id="login_icon"></i>
+                        </span>
+                         
+                    </a>
+                    <!-- <i class="fas fa-bars fh" id="menu-bars"></i> -->
+                </div>
+        
+                <button class="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+            </div>
+        
+        </nav>
+        
+    </header>
+    <!-- header section ends -->
+    
+
+
+
+
+    <!-- search form -->
+    
+    <form action="" id="search-form">
+        <input type="search" placeholder="Search her..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+    
+    <!-- search section ends -->
+    
+    <form action="" id="login-form">
+
+        <div class="regest">
+            <a id="btnlogin" lo href="login.html" class="btn-primary"> login </a>
+
+
+        </div>
+        <div class="regest">
+            <a id="btnregest" href="signup.html" class="bx bx-add"> Registration </a>
+
+
+        </div>
+        <i class="fas fa-times" id="close2"></i>
+
+    </form>
+
+
+
+    <!-- start home -->
+
+    <section class="home" id="home">
+        
+        <div class="content">
+            <span>Our special dish</span>
+            <h3>spicy Juicy meat</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, doloremque.</p>
+            <a href="#menu" class="btn"><i class='bx bx-cart-add'></i>order now</a>
+            
+        </div>
+        
+    </section>
+    
+    <!-- home section ends -->
+
+
+    
+
+
+
+
+  
+
+
+    <!-- Start Menu -->
+    <section id="menu">
+        <h1 class="head-menu">Menu</h1>
+
+        <button id="btn2"><i class="fas fa-arrow-up"></i></button>
+
+        <div class="container2">
+            <div class="navbar2">
+                <div id="menu2"><h1>Discover Menu</h1></div>
+            </div>
+            <div class="search-bar2">
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="container2">
+            <div class="box2">
+                <div class="icon2">
+                    <i class="fa-solid fa-burger"></i>
+                </div>
+                <a id="paragraph" href="#Burger">Burger</a>
+
+            </div>
+
+
+            <div class="box2">
+                <div class="icon2">
+                    <i class="fa-solid fa-pizza-slice"></i>
+                </div>
+                <a id="paragraph" href="#Pizza">Pizza</a>
+            </div>
+
+
+            <div class="box2">
+                <div class="icon2">
+                    <i class="fa-solid fa-mug-hot"></i>
+                </div>
+                <a id="paragraph" href="#Coffee">Coffee</a>
+            </div>
+
+
+            <div class="box2">
+                <div class="icon2">
+                    <i class="fa-solid fa-cake"></i>
+                </div>
+                <a id="paragraph" href="#Dessert">Dessert</a>
+            </div>
+
+
+
+            <div class="box2">
+                <div class="icon2">
+                    <i class="fa-solid fa-drumstick-bite"></i>
+                </div>
+                <a id="paragraph" href="#Steak">Steak</a>
+            </div>
+        </div>
+
+        <br />
+
+        <h1 class="container2" id="section">Burger section</h1>
+        <div class="Burger" id="Burger">
+            <div class="item2">
+                <img src="../Image/burger/burger5.jpg" style="width:200px;" />
+                <div class="details">
+                    <h3>
+                        Beef Burger
+                    </h3>
+                    <p class="product">product: Burger</p>
+                    <p class="price">price: $10.00</p>
+                </div>
+            </div>
+            <div class="item2">
+                <img src="../Image/burger/burger3.jpg" style="width:200px;" />
+                <div class="details">
+                    <h3>
+                        Chicken Burger
+                    </h3>
+                    <p class="product">product: Burger</p>
+                    <p class="price">price: $10.00</p>
+                </div>
+            </div>
+            <div class="item2">
+                <img src="../Image/burger/burger4.jpg" style="width:200px;" />
+                <div class="details">
+                    <h3>
+                        Fish Burger
+                    </h3>
+                    <p class="product">product: Burger</p>
+                    <p class="price">price: $10.00</p>
+                </div>
+            </div>
+            <div class="item2">
+                <img src="../Image/burger/burger1.webp" style="width:200px;" />
+                <div class="details">
+                    <h3>
+                        Cheeseburger
+                    </h3>
+                    <p class="product">product: Burger</p>
+                    <p class="price">price: $10.00</p>
+                </div>
+            </div>
+            <div class="item2">
+                <img src="../Image/burger/Burger3.jpg" style="width:200px;" />
+                <div class="details">
+                    <h3>
+                        Beef Burger
+                    </h3>
+                    <p class="product">product: Burger</p>
+                    <p class="price">price: $10.00</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <h1 class="container2" id="section">Pizza section</h1>
+        <div class="Pizza" id="Pizza">
+            <div class="item2">
+                <img src="../Image/Pizza/ai-generated-8023787_1280.webp" style="width: 200px; height: 200px;" />
+                <div class="details">
+                    <h3>
+                        Margherita Pizza
+                    </h3>
+                    <p class="product">product: Pizza</p>
+                    <p class="price">price: $10.00</p>
+                </div>
+            </div>
+            <div class="item2">
+                <img src="../Image/Pizza/Pizza2.jpg" style="width:200px; height:200px;" />
+                <div class="details">
+                    <h3>
+                        Pepperoni Pizza
+                    </h3>
+                    <p class="product">product: Pizza</p>
+                    <p class="price">price: $10.00</p>
+                </div>
+            </div>
+            <div class="item2">
+                <img src="../Image/Pizza/Pizza3.jpg" style="width: 200px; height: 200px;" />
+                <div class="details">
+                    <h3>
+                        Hawaiian Pizza
+                    </h3>
+                    <p class="product">product: Pizza</p>
+                    <p class="price">price: $10.00</p>
+                </div>
+            </div>
+            <div class="item2">
+                <img src="../Image/Pizza/Pizza2.jpg" style="width: 200px; height: 200px;" />
+                <div class="details">
+                    <h3>
+                        Veggie Pizza
+                    </h3>
+                    <p class="product">product: Pizza</p>
+                    <p class="price">price: $10.00</p>
+                </div>
+            </div>
+            <div class="item2">
+                <img src="../Image/Pizza/Pizza4.jpg" style="width: 200px; height: 200px;" />
+                <div class="details">
+                    <h3>
+                        Meat Pizza
+                    </h3>
+                    <p class="product">product: Pizza</p>
+                    <p class="price">price: $10.00</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <h1 class="container2" id="section">Coffee section</h1>
+        <div class="Coffee" id="Coffee">
+            <div class="item2">
+                <img src="../Image/coffee/coffee2.webp" style="width: 200px; height: 200px;" />
+                <div class="details">
+                    <h3>
+                        Espresso
+                    </h3>
+                    <p class="product">product: Coffee</p>
+                    <p class="price">price: $10.00</p>
+                </div>
+            </div>
+            <div class="item2">
+                <img src="../Image/coffee/coffee3.jpg" style="width:200px; height:200px;" />
+                <div class="details">
+                    <h3>
+                        Americano
+                    </h3>
+                    <p class="product">product: Coffee</p>
+                    <p class="price">price: $10.00</p>
+                </div>
+            </div>
+            <div class="item2">
+                <img src="../Image/coffee/coffee4.webp" style="width: 200px; height: 200px;" />
+                <div class="details">
+                    <h3>
+                        Cappuccino
+                    </h3>
+                    <p class="product">product: Coffee</p>
+                    <p class="price">price: $10.00</p>
+                </div>
+            </div>
+            <div class="item2">
+                <img src="../Image/coffee/coffee5.webp" style="width: 200px; height: 200px;" />
+                <div class="details">
+                    <h3>
+                        Macchiato
+                    </h3>
+                    <p class="product">product: Coffee</p>
+                    <p class="price">price: $10.00</p>
+                </div>
+            </div>
+            <div class="item2">
+                <img src="../Image/coffee/coffee2.webp" style="width: 200px; height: 200px;" />
+                <div class="details">
+                    <h3>
+                        Mocha
+                    </h3>
+                    <p class="product">product: Coffee</p>
+                    <p class="price">price: $10.00</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <h1 class="container2" id="section">Dessert section</h1>
+        <div class="Dessert" id="Dessert">
+            <div class="item2">
+                <img src="../Image/Dessert/Apple Pie.webp" style="width: 200px; height: 200px;" />
+                <div class="details">
+                    <h3>
+                        Apple Pie
+                    </h3>
+                    <p class="product">product: Dessert</p>
+                    <p class="price">price: $10.00</p>
+                </div>
+            </div>
+            <div class="item2">
+                <img src="../Image/Dessert/Carrot Cake.jpg" style="width:200px; height:200px;" />
+                <div class="details">
+                    <h3>
+                        Carrot Cake
+                    </h3>
+                    <p class="product">product: Dessert</p>
+                    <p class="price">price: $10.00</p>
+                </div>
+            </div>
+            <div class="item2">
+                <img src="../Image/Dessert/Cheesecake.jpg" style="width: 200px; height: 200px;" />
+                <div class="details">
+                    <h3>
+                        Cheesecake
+                    </h3>
+                    <p class="product">product: Dessert</p>
+                    <p class="price">price: $10.00</p>
+                </div>
+            </div>
+            <div class="item2">
+                <img src="../Image/Dessert/Chocolate1.jpg" style="width: 200px; height: 200px;" />
+                <div class="details">
+                    <h3>
+                        Chocolate Cake
+                    </h3>
+                    <p class="product">product: Dessert</p>
+                    <p class="price">price: $10.00</p>
+                </div>
+            </div>
+            <div class="item2">
+                <img src="../Image/Dessert/Vanilla Cake.jpg" style="width: 200px; height: 200px;" />
+                <div class="details">
+                    <h3>
+                        Vanilla Cake
+                    </h3>
+                    <p class="product">product: Dessert</p>
+                    <p class="price">price: $10.00</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <h1 class="container2" id="section">Steak section</h1>
+        <div class="Steak" id="Steak">
+            <div class="item2">
+                <img src="../Image/steak/images (2).jpg" style="width: 200px; height: 200px;" />
+                <div class="details">
+                    <h3>
+                        Ribeye Steak
+                    </h3>
+                    <p class="product">product: Steak</p>
+                    <p class="price">price: $10.00</p>
+                </div>
+            </div>
+            <div class="item2">
+                <img src="../Image/steak/istockphoto-587207508-612x612.jpg" style="width:200px; height:200px;" />
+                <div class="details">
+                    <h3>
+                        Sirloin Steak
+                    </h3>
+                    <p class="product">product: Steak</p>
+                    <p class="price">price: $10.00</p>
+                </div>
+            </div>
+            <div class="item2">
+                <img src="../Image/steak/Ribeye Steak.webp" style="width: 200px; height: 200px;" />
+                <div class="details">
+                    <h3>
+                        Sirloin Steak
+                    </h3>
+                    <p class="product">product: Steak</p>
+                    <p class="price">price: $10.00</p>
+                </div>
+            </div>
+            <div class="item2">
+                <img src="../Image/steak/ribeye-steak.jpg" style="width: 200px; height: 200px;" />
+                <div class="details">
+                    <h3>
+                        Sirloin Steak
+                    </h3>
+                    <p class="product">product: Steak</p>
+                    <p class="price">price: $10.00</p>
+                </div>
+            </div>
+            <div class="item2">
+                <img src="../Image/steak/steak.jpg" style="width: 200px; height: 200px;" />
+                <div class="details">
+                    <h3>
+                        Sirloin Steak
+                    </h3>
+                    <p class="product">product: Steak</p>
+                    <p class="price">price: $10.00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Menu -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- services start -->
+    <section class="services" id="services">
+        <div class="heading">
+            <span>Services</span>
+            <h2>We offer the best kind of cake</h2>
+        </div>
+
+        <div class="service-container">
+            <div class="s-box">
+                <img src="../Image/s1.png" alt="">
+                <h3>Order</h3>
+                <p>There are many variations passages of Lorem Ipsum available, but 
+                    the majority have suffered alteration in form, by injected humour</p>
+            </div>
+
+            <div class="s-box">
+                <img src="../Image/s2.png" alt="">
+                <h3>Shipping</h3>
+                <p>There are many variations passages of Lorem Ipsum available, but 
+                    the majority have suffered alteration in form, by injected humour</p>
+            </div>
+
+            <div class="s-box">
+                <img src="../Image/s3.png" alt="">
+                <h3>Delivered</h3>
+                <p>There are many variations passages of Lorem Ipsum available, but 
+                    the majority have suffered alteration in form, by injected humour</p>
+            </div>
+
+        </div>
+    </section>
+    <!-- services section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- contact section starts -->
+
+   <section class="contact3" id="contact">
+    
+    <h1 class="heading3"> <span>contact</span> us </h1>
+
+    <div class="row3">
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3486.9325565255585!2d31.11556498526895!3d29.07813787052455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145a27c172292b43%3A0x445e0f247fc68cc6!2sDose%20Cafe%20%26%20Restaurant!5e0!3m2!1sar!2seg!4v1678099684017!5m2!1sar!2seg" 
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <form action="">
+            <h3>get in touch</h3>
+            <div class="inputBox3">
+                <span class="fas fa-user"></span>
+                <input type="text" placeholder="neme">
+            </div>
+            <div class="inputBox3">
+                <span class="fas fa-envelope"></span>
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox3">
+                <span class="fas fa-phone"></span>
+                <input type="number" placeholder="number">
+            </div>
+            <input type="submit" value="contact now" class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- contact section ends -->
+
+    <!--about start-->
+    <header>
+        <div class="overlay"></div>
+        <div class="header-content">
+          <h1>About Us</h1>
+          <p>Welcome to our restaurant! We provide the finest culinary experiences with a focus on quality and customer satisfaction.</p>
+          <a href="#feedback-section" class="btn">Give Feedback</a>
+        </div>
+      </header>
+    
+      <section id="feedback-section">
+        <h2>Your Feedback</h2>
+        <form id="feedback-form">
+          <input type="text11" id="name11" name="name11" placeholder="Enter your name" required>
+          <input type="email11" id="email11" name="email11" placeholder="Enter your email" required>
+          <textarea id="message11" name="message11" placeholder="Tell us about your experience..." required></textarea>
+    
+          <div class="rating">
+            <label for="rating">Rate Our Service:</label>
+            <div class="stars">
+              <input type="radio" name="star" id="star5" value="5"><label for="star5">&#9733;</label>
+              <input type="radio" name="star" id="star4" value="4"><label for="star4">&#9733;</label>
+              <input type="radio" name="star" id="star3" value="3"><label for="star3">&#9733;</label>
+              <input type="radio" name="star" id="star2" value="2"><label for="star2">&#9733;</label>
+              <input type="radio" name="star" id="star1" value="1"><label for="star1">&#9733;</label>
+            </div>
+          
+    
+          <input type="submit11" value="Submit Feedback">
+        </form>
+      </section>
+       <!--New letter section -->
+      <section id="newsletter-section">
+        <h2>Sign Up for Our News letter</h2>
+        <form id="newsletter-form">
+       
+          <input type="email11" id="newsletter-email" name="newsletter-email" placeholder="Enter your email" required>
+          <input type="submit11" value="Sign Up">
+        </form>
+      </section>
+<!--about end-->
+
+
+
+
+
+
+    <!-- JS -->
+    <script src="../JS/Script.js"></script>
+
+    <!-- JS Bootstrap -->
+    <script src="../JS/bootstrap1.bundle.min.js"></script>
+
+    <!-- JS Jquery -->
+    <script src="../JS/jquery-3.7.1.min.js"></script>
+
+    <!-- JS Popper -->
+    <script src="../JS/popper.min.js"></script>
+
+    <!-- JS Swiper -->
+    <!--<script src="../JS/swiper-bundle.min.js"></script>-->
+
+    <!-- <script src="../JS/swiper-bundle.min.mjs"></script>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+</body>
+</html>

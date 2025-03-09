@@ -1,0 +1,95 @@
+body {
+    background-image: url("../Image/Home.jpg");
+    background-repeat:no-repeat;  /* عشان الصوره متكرارش*/
+    background-size: cover; /* عشان الصورة تغطي الخلفية كله */
+    background-position: center; /* عشان الصورة تبقي في النص */
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login {
+    position: absolute;
+    transform: translate(-50,-50);
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    border: 1px solid rgb(241,241,241);
+    border-radius: 12px;
+    padding: 10px 20px;
+    background: transparent;
+    backdrop-filter: blur(6px);
+    box-shadow: 5px 5px 10px 0 rgba(0,0,0,0.5); /* box-shadow => تُستخدم لإضافة ظل لعناصر*/
+}
+
+.login .fas{
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: #fff;
+    transition: all .3s linear;
+}
+.login .fas:hover{
+    color: #ff2c28;
+    transform: rotate(360deg);
+}
+
+.login h2{
+    font-size:30px;
+    color:#fffefe;
+}
+.Username {
+    position: relative; /*عشان العنصر في مكانه الأصلي  */
+}
+    .Username input[type="text"], .Username input[type="password"] {
+        border-radius: 10px;
+         background: transparent; /* /العنصر بيقي شافف/ */
+        margin: 15px;
+        border: 2px solid rgb(255,255,255);
+        width: 280px;
+        height: 40px;
+        padding: 20px 40px 20px 20px;
+        backdrop-filter: blur(15px); /**بتعمل فلترا او ضباب يعني/ */
+        color:white;
+
+    }
+.Username i{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    right:20px;
+    color:rgb(255,255,255);
+
+}
+input:focus {
+    outline: 2px solid white;
+}
+input::placeholder{
+    color:rgb(255,255,255);
+}
+.Username input[type="text"]:focus::placeholder,
+.Username input[type="password"]:focus::placeholder{
+    font-size:14px;
+
+
+}
+a.forgot{
+    text-decoration:none;
+    color:#0026ff;
+}
+a.sign {
+    text-decoration: none;
+    color: #0026ff;
+}
+.login #btn{
+    font-weight:600;
+    width:200px;
+    cursor:pointer;
+    border-radius:45px;
+}
+*{
+    font-family:sans-serif;
+}

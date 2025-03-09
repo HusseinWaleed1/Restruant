@@ -1,0 +1,77 @@
+
+
+
+
+*{
+    font-family:sans-serif;
+}
+
+
+
+
+
+
+body {
+    background-image: url(../Image/Home.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.Registration {
+    position: absolute;
+    transform: translate(-50,-50);
+    text-align: center;
+    border: 5px solid rgb(241, 241, 241);
+    border-radius: 10px;
+    padding: 12px 22px;
+    background: transparent;
+    box-shadow: 5px 5px 10px 0 rgba(0,0,0,0.5);
+}
+.Registration h2{
+    font-size:40px;
+    /* color:rgb(241, 241, 241); */
+    color:black;
+}
+.Registration .inputs{
+    margin:0;
+    padding:6px;
+    width:300px;
+}
+.inputs{
+    position:relative;
+}
+    .inputs input[type="text"], .inputs input[type="email"],
+    .inputs input[type="date"], .inputs input[type="password"],
+    .inputs input[type="password"] {
+        border-radius: 12px;
+        width: 270px;
+        height: 50px;
+        padding: 20px 40px 20px 20px;
+        border: 2px solid rgb(255,255,255);
+        color:black;
+    }
+    input:focus{
+        outline:2px solid white;
+    }
+    input::placeholder{
+        color:black;
+    }
+button {
+    width: 250px;
+    margin-top: 10px; /* مسافة مناسبة بين الحقول والزر */
+}
+.inputs i {
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%);
+    color: black;
+    font-size: 15px; /* حجم الأيقونة */
+}
+
+
